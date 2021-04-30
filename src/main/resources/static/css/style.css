@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+
+
 html {
     box-sizing: border-box;
 }
@@ -41,9 +43,27 @@ a {
     justify-content: space-between;
 }
 
+.vizitka--nova {
+    background-color: #FFFFFF66;
+    border: 3px dotted white;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover .vizitka {
+    box-shadow: 10px 10px 10px black;
+    transform: translate(-5px, -5px);
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+
 .jmeno {
     font-weight: bold;
     font-size: 18pt;
+    text-align: center;
+    margin: 1em 0 1em 0;
+}
+.jmeno_nova {
     text-align: center;
     margin: 1em 0 1em 0;
 }
